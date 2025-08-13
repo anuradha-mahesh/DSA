@@ -1,3 +1,5 @@
+package SecondLargest;
+
 public class SecondLargest {
 
     public static void secondLargest(int[] arr) {

@@ -1,3 +1,5 @@
+package SecondLargest;
+
 import java.util.Arrays;
 
 public class SecondLargestAllApproaches {
