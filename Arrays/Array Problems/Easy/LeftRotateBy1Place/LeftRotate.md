@@ -7,7 +7,7 @@ Input:  [1, 2, 3, 4, 5]
 Output: [2, 3, 4, 5, 1]
 
 ## Approach 1: Brute Force (Using Extra Array)
-
+```
 function leftRotateBy1(arr, n):
     create temp[n]
 
@@ -17,7 +17,7 @@ function leftRotateBy1(arr, n):
     temp[n-1] = arr[0]
 
     return temp
-
+```
 ## Time Complexity
 
 O(n) → traverses the array once
@@ -30,7 +30,7 @@ O(n) → requires an extra temporary array
 
 
 ## Approach 2: Optimal (In-place Rotation)
-
+```
 function leftRotateBy1(arr, n):
     temp = arr[0]
 
@@ -40,7 +40,7 @@ function leftRotateBy1(arr, n):
     arr[n-1] = temp
 
     return arr
-
+```
 ## Time Complexity
 
 O(n) → single traversal of the array
