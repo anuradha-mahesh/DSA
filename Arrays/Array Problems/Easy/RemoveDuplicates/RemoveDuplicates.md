@@ -11,6 +11,7 @@ Copy them back to the original array.
 Return the count of unique elements.
 
 ## Pseudocode
+```
 function removeDuplicatesBrute(nums):
     set = empty LinkedHashSet   // keeps order
     for each num in nums:
@@ -22,7 +23,7 @@ function removeDuplicatesBrute(nums):
         i++
 
     return size of set
-
+```
 ## Complexity
 
 Time Complexity: O(N)
@@ -46,6 +47,8 @@ Whenever a new unique element is found (nums[j] != nums[i]), move i forward and 
 Finally, i+1 = number of unique elements.
 
 ## Pseudocode
+
+```
 function removeDuplicates(nums):
     if nums.length == 0:
         return 0
@@ -57,7 +60,7 @@ function removeDuplicates(nums):
             nums[i] = nums[j]
 
     return i+1
-
+```
 ## Complexity
 
 Time Complexity: O(N)
