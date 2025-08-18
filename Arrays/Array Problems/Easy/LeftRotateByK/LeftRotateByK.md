@@ -10,6 +10,7 @@ Output: [3, 4, 5, 1, 2]
 
 ## Pseudocode
 
+```
 function leftRotateBrute(arr, n, k):
     k = k % n                       // handle if k > n
     temp = new array of size k
@@ -27,6 +28,7 @@ function leftRotateBrute(arr, n, k):
         arr[n-k+i] = temp[i]
 
     return arr
+```
 
 ## Complexity
 
@@ -35,7 +37,6 @@ Time: O(n) → each element is shifted once.
 Space: O(k) → extra array used.
 
 ## Approach 2: Optimal (Reversal Algorithm)
-
 
 We can rotate in-place using 3 reversals:
 
@@ -46,6 +47,8 @@ Reverse the remaining n-k elements.
 Reverse the whole array.
 
 ## Pseudocode
+
+```
 function reverse(arr, start, end):
     while start < end:
         swap(arr[start], arr[end])
@@ -65,6 +68,7 @@ function leftRotateOptimal(arr, n, k):
     reverse(arr, 0, n-1)
 
     return arr
+```
 
 ## Complexity
 
