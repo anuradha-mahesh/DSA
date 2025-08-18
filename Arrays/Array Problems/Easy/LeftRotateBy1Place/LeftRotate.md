@@ -26,6 +26,9 @@ O(n) → traverses the array once
 
 O(n) → requires an extra temporary array
 
+
+
+
 ## Approach 2: Optimal (In-place Rotation)
 
 function leftRotateBy1(arr, n):
