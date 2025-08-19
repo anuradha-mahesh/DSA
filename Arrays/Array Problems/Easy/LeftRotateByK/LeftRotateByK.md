@@ -75,3 +75,25 @@ function leftRotateOptimal(arr, n, k):
 Time: O(n) → total of 3 reversals.
 
 Space: O(1) → in-place.
+
+## Tip to avoid confusion
+
+Left rotate → Handle the first k chunk first.
+
+Right rotate → Handle the last k chunk first.
+
+## Quick Tip:
+
+Left Rotate = front goes to back
+ Right Rotate = back comes to front
+
+## Visualization
+```
+Take arr = [1, 2, 3, 4, 5]
+
+Left Rotate by 2 → [3, 4, 5, 1, 2]
+(the first 2 [1,2] moved to the end)
+
+Right Rotate by 2 → [4, 5, 1, 2, 3]
+(the last 2 [4,5] moved to the front)
+```
