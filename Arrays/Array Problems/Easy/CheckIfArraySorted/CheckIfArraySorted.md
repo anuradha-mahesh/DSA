@@ -35,10 +35,11 @@ If it is not sorted, return `"not sorted"`.
 
 #### Pseudocode:
 ```
-FOR i from 0 to n-1:
-FOR j from i+1 to n-1:
-IF arr[j] <= arr[i]:
-RETURN "not sorted"
+FOR i ← 0 TO n-1:
+    FOR j ← i+1 TO n-1:
+        IF arr[j] <= arr[i]:
+            RETURN "not sorted"
+
 RETURN "sorted"
 ```
 
@@ -57,9 +58,10 @@ RETURN "sorted"
 
 #### Pseudocode:
 ```
-FOR i from 1 to n-1:
-IF arr[i] <= arr[i-1]:
-RETURN "not sorted"
+FOR i ← 1 TO n-1:
+    IF arr[i] <= arr[i-1]:
+        RETURN "not sorted"
+
 RETURN "sorted"
 ```
 
