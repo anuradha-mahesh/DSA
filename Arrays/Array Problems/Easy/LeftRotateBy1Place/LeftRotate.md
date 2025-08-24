@@ -25,8 +25,7 @@ O(n) → traverses the array once
 ## Space Complexity
 
 O(n) → requires an extra temporary array
-
-
+ 
 
 
 ## Approach 2: Optimal (In-place Rotation)
@@ -38,8 +37,7 @@ function leftRotateBy1(arr, n):
         arr[i] = arr[i+1]
 
     arr[n-1] = temp
-
-    return arr
+      return arr
 ```
 ## Time Complexity
 
