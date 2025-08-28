@@ -23,8 +23,10 @@ public class MoveZeroesToEndBrute {
             temp[i] = 0;
         }
 
-        // Print result
-        System.out.println("first Method: " + Arrays.toString(temp));
+        for (int i = 0; i < n; i++) {
+            arr[i] = temp[i];
+        }
+         System.out.println(Arrays.toString(arr));
     }
 
     // using ArrayList
@@ -56,10 +58,9 @@ public class MoveZeroesToEndBrute {
         int arr1[] = {1, 0, 0, 0, 2, 3, 0, 4, 5};
         int arr2[] = {1, 0, 0, 0, 2, 3, 0, 4, 5};
 
-        // Your version
+   
         removeZero(arr1);
 
-        // Striver’s version
         int[] ans = moveZeros(arr2.length, arr2);
         System.out.println("Second Method: " + Arrays.toString(ans));
     }
