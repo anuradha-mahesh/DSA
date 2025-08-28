@@ -1,6 +1,5 @@
 package LeftRotateBy1Place;
 
-import java.util.*;
 
 public class LeftRotate {
    

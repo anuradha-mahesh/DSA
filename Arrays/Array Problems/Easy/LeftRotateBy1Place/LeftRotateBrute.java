@@ -1,6 +1,5 @@
 package LeftRotateBy1Place;
 
-import java.util.*;
 public class LeftRotateBrute {
 
 static void solve(int arr[], int n) {

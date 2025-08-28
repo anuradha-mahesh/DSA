@@ -1,6 +1,5 @@
 package LeftRotateByK;
 
-import java.util.*;
 
 public class LeftRotateByKBrute {
   
