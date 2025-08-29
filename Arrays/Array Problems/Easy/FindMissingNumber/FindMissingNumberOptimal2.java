@@ -4,7 +4,7 @@ public class FindMissingNumberOptimal2 {
     
 
     public static int missingNumber(int[] arr) {
-        int N = arr.length + 1;  // total numbers should be from 1..N
+        int N = arr.length + 1; // total numbers should be from 1..N
         int xor1 = 0, xor2 = 0;
 
         // XOR all array elements
