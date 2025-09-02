@@ -1,21 +1,19 @@
 package FindSingle;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class FindSingleBetter2 {
     
     public static int findSingleBetter2(int[] arr) {
-        int maxi = arr[0];
+        HashMap<Integer, Integer> mpp = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
-            maxi = Math.max(maxi, arr[i]);
+            int value = mpp.getOrDefault(arr[i], 0);
+            mpp.put(arr[i], value + 1);
         }
-
-        int[] hash = new int[maxi + 1];
-        for (int i = 0; i < arr.length; i++) {
-            hash[arr[i]]++;
-        }
-
-        for (int i = 0; i < arr.length; i++) {
-            if (hash[arr[i]] == 1) {
-                return arr[i];
+        for (Map.Entry<Integer, Integer> it : mpp.entrySet()) {
+            if (it.getValue() == 1) {
+                return it.getKey();
             }
         }
         return -1;
