@@ -1,5 +1,8 @@
 package LongestSubarraySumK;
 
+
+
+//Works only when all numbers are non-negative (positives + zero).
 public class LongestSubarraySumOptimal {
        public static int getLongestSubarray(int []a, long k) {
         int n = a.length; // size of the array.

@@ -1,7 +1,10 @@
 package LongestSubarraySumK;
 
 public class LongestSubarraySumKBrute {
-     // Brute force: O(n^3) approach
+    // Brute force: O(n^3) approach
+    //Works for any integers (positives, negatives, zero).
+   
+    
     public static int getLongestSubarray(int []a, long k) {
         int n = a.length;
         int len = 0; // stores max subarray length

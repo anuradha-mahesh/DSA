@@ -1,6 +1,8 @@
 package LongestSubarraySumK;
 
 public class LongestSubarraySumKBetter1 {
+
+    
     public static int getLongestSubarray(int []a, long k) {
         int n = a.length; // size of the array.
 
