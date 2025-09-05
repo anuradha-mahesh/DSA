@@ -20,6 +20,11 @@ public class LongestSubarraySumKBrute {
         }
         return len;
     }
-
+       public static void main(String[] args) {
+         int[] a = { 2, 3, 5, 1, 9 };
+         long k = 10;
+         int len = getLongestSubarray(a, k);
+         System.out.println("The length of the longest subarray is: " + len);
+    }
    
 }
