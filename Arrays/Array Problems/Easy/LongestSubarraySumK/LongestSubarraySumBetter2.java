@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LongestSubarraySumBetter2 {
+
+    // Works for any integers (positives, negatives, zero).
     public static int getLongestSubarray(int []a, long k) {
         int n = a.length; // size of the array.
 
