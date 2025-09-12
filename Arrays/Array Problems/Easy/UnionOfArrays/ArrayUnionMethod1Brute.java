@@ -1,5 +1,3 @@
-package UnionOfArrays;
-
 import java.util.*;
 
 public class ArrayUnionMethod1Brute {

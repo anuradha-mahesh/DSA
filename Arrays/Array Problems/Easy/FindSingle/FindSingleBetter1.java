@@ -1,5 +1,3 @@
-package FindSingle;
-
 public class FindSingleBetter1 {
     
     public static int getSingleElement(int []arr) {

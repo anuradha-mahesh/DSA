@@ -1,6 +1,3 @@
-package LongestSubarraySumK;
-
-
 
 //Works only when all numbers are non-negative (positives + zero).
 public class LongestSubarraySumOptimal {

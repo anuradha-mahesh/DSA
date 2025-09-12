@@ -1,5 +1,3 @@
-package FindSingle;
-
 public class FindSingleOptimal {
 
     public static int findSingleOptimal(int[] arr) {

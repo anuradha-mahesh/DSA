@@ -1,5 +1,3 @@
-package MoveZeroesToEnd;
-
 import java.util.*;
  
 public class MoveZeroesToEndBrute {

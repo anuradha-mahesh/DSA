@@ -1,5 +1,3 @@
-package IntersectionOfArrays;
-
 import java.util.*;
  
 public class IntersectionOfArrays {

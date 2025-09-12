@@ -1,4 +1,4 @@
-package RemoveDuplicates;
+
 public class RemoveDuplicates {
    
 

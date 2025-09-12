@@ -1,7 +1,3 @@
-package RemoveDuplicates;
-
-
-
 import java.util.HashSet;
 
 public class RemoveDuplicatesBrute {

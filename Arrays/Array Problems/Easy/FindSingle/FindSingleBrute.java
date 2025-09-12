@@ -1,5 +1,3 @@
-package FindSingle;
-
 public class FindSingleBrute {
 
     public static int findSingle(int[] arr) {

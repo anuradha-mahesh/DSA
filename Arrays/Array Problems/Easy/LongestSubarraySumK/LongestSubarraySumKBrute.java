@@ -1,5 +1,3 @@
-package LongestSubarraySumK;
-
 public class LongestSubarraySumKBrute {
     // Brute force: O(n^3) approach
     //Works for any integers (positives, negatives, zero).

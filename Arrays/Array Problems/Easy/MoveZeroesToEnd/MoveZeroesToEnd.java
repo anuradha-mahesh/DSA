@@ -1,5 +1,3 @@
-package MoveZeroesToEnd;
-
 import java.util.Arrays;
 
 public class MoveZeroesToEnd {
