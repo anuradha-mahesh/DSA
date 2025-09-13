@@ -2,7 +2,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class LongestSubarraySumBetter2 {
+public class LongestSubarraySumBetter {
 
     // Works for any integers (positives, negatives, zero).
     public static int getLongestSubarray(int []a, long k) {
