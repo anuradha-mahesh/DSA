@@ -1,0 +1,33 @@
+package MaxSubarraySum;
+
+public class MaxSubarraySum {
+    public static long maxSubarraySum(int[] arr, int n) {
+        long maxi = Long.MIN_VALUE; // maximum sum so far
+        long sum = 0;               // current subarray sum
+
+        for (int i = 0; i < n; i++) {
+            sum += arr[i];          // add current element to running sum
+
+            if (sum > maxi) {       // update maximum if needed
+                maxi = sum;
+            }
+
+            // If running sum becomes negative, discard it
+            if (sum < 0) {
+                sum = 0;
+            }
+        }
+
+        // To consider the sum of the empty subarray (if allowed):
+        // if (maxi < 0) maxi = 0;
+
+        return maxi;
+    }
+
+    public static void main(String args[]) {
+        int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+        int n = arr.length;
+        long maxSum = maxSubarraySum(arr, n);
+        System.out.println("The maximum subarray sum is: " + maxSum);
+    }
+}
